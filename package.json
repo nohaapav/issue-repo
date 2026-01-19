@@ -1,0 +1,21 @@
+{
+  "name": "issue",
+  "private": true,
+  "type": "module",
+  "main": "out/index.js",
+  "scripts": {
+    "dev": "node ./esbuild.dev.mjs"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  },
+  "dependencies": {
+    "@galacticcouncil/descriptors": "^1.7.0",
+    "polkadot-api": "^1.23.2"
+  },
+  "peerDependencies": {
+    "rxjs": "^7.8.2"
+  },
+  "packageManager": "pnpm@10.28.0+sha512.05df71d1421f21399e053fde567cea34d446fa02c76571441bfc1c7956e98e363088982d940465fd34480d4d90a0668bc12362f8aa88000a64e83d0b0e47be48"
+}
